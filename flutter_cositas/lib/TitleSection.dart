@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_cositas/FavoriteWidget.dart';
 
 class TitleSection extends StatelessWidget {
   const TitleSection({
@@ -41,11 +42,7 @@ class TitleSection extends StatelessWidget {
             ),
           ),
           /*3*/
-          const Icon(
-            Icons.star,
-            color: Colors.yellow,
-          ),
-          const Text('41'),
+          const FavoriteWidget(),
         ],
       ),
     );
